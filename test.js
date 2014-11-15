@@ -1,4 +1,3 @@
-
 function zobrazitControllPanel(){
 $("#nBOT-cPanel").css('right', function(){ return $(this).offset().right; })
              .animate({"right":"-100px"}, "slow"); 
